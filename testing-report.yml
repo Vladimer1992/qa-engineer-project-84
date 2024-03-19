@@ -24,10 +24,6 @@
   status: fail
 
 - summary: |
-    Проверка фильтрации товаров по размеру
-  status: fail
-
-- summary: |
     Просмотр каталога товаров
   status: pass
 
