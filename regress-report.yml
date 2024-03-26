@@ -100,20 +100,3 @@ test-cases:
   - summary: |
       Переход к категории товаров по хэштегу на странице товара
     status: pass
-
-bugreports:
-  - summary: |  
-    Фильтрация товаров по несуществующему ключевому слову
-  environment: |
-    Microsoft Edge
-    Версия 122.0.2365.92 (Официальная сборка), (arm64)
-    Выпуск	Windows 11 IoT Корпоративная
-    Версия	22H2
-    Сборка ОС	22621.3296
-  steps-to-reproduce: |
-    1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Выставить фильтр по несуществующему среди названий товаров ключевому слову -(Cобака)
-  expected-result: |
-    Выводится сообщение "Ничего не происходит!"
-  actual-result: |
-    Мы видим все товары каталога
