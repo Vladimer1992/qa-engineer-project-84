@@ -190,9 +190,9 @@
   requirement: |
     При открытии сайта на мобильном устройстве загружается мобильная версия
   prerequisites: |
-    -
+    empty 
   test-data: |
-    -
+    empty
   steps:
     - На мобильном телефоне перейти по ссылке https://hexlet-products-store.vercel.app/
   expected-result: |
