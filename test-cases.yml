@@ -290,7 +290,7 @@
     Сайт = https://hexlet-products-store.vercel.app/
     Microsoft Edge = Версия 122.0.2365.92
   steps:
-    - Открываем сайт в Microsoft Edge
+    - Сайт открылся корректно в Microsoft Edge
 
     - summary: |
     Проверка корректной работы на SPA
@@ -299,7 +299,7 @@
   prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app
   test-data: |
-    - []
+    - empty
   steps:
     - Нажмаем на "Следующая"
     - Нажимаем на "Предыдущая"
@@ -312,4 +312,18 @@
     - Нажимаем на "Фильтр"
   expected-result: |
     При провидение действий на сайте страницы не перезагружаются.
+    
+- summary: |
+    Проверка покубки товара в DevTools
+  requirement: |
+    При покубки товара не должно быть ошыбок
+  prerequisites: |
+    В браузере открыта страница https://hexlet-products-store.vercel.app/
+  test-data: |
+    empty
+  steps:
+    - 1 Заходим в DevTools на вкладку сеть, запросы
+    - 2 Заказываем товар на сайте    
+  expected-result: |
+    DevTools выдал Status Code: 500 Internal Server Error
     
