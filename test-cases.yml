@@ -311,8 +311,8 @@
   test-data: |
     empty
   steps:
-    - 1 Заходим в DevTools на вкладку сеть, запросы
-    - 2 Заказываем товар на сайте    
+    - Заходим в DevTools на вкладку сеть, запросы
+    - Заказываем товар на сайте    
   expected-result: |
     DevTools выдал Status Code: 500 Internal Server Error
     
