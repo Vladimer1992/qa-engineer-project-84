@@ -292,14 +292,14 @@
   steps:
     - Сайт открылся корректно в Microsoft Edge
 
-    - summary: |
+- summary: |
     Проверка корректной работы на SPA
   requirement: |
     При переходе между разделами сайта не происходит перезагрузка страницы
   prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app
   test-data: |
-    - empty
+    empty
   steps:
     - Нажмаем на "Следующая"
     - Нажимаем на "Предыдущая"
