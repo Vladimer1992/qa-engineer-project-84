@@ -73,7 +73,7 @@
   actual-result: |
     Ничего не происходит
 
-  - summary: |  
+- summary: |  
     Фильтрация товаров по несуществующему ключевому слову
   environment: |
     Microsoft Edge
