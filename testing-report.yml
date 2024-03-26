@@ -94,3 +94,7 @@
 - summary: |
     Проверка кроссбраузерности Microsoft Edge
   status: pass
+
+- summary: |
+    Проверка ошибак покубки товара в DevTools
+  status: fail
