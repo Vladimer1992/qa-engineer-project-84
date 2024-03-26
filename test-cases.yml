@@ -283,15 +283,18 @@
 - summary: |
     Проверка кроссбраузерности Microsoft Edge
   requirement: |
-    Сайт корректно открывается в последней версии Microsoft Edge
+    Сайт корректно открывается
   prerequisites: |
     empty
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
     Microsoft Edge = Версия 122.0.2365.92
-  steps:
-    - Сайт открылся корректно в Microsoft Edge
-
+    steps:
+    - Открываем сайт
+    - Проверяем внешний вид страниц
+  expected-result: |
+    Страницы сайта выглядит хорошо текст не выходит за блоки
+    
 - summary: |
     Проверка корректной работы на SPA
   requirement: |
