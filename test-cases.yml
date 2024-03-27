@@ -275,7 +275,7 @@
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
     Microsoft Edge = Версия 122.0.2365.92
-    steps:
+  steps:
       - Открываем сайт
       - Проверяем внешний вид страниц
   expected-result: |
