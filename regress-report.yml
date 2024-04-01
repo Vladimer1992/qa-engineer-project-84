@@ -102,5 +102,5 @@ test-cases:
     status: pass
 
   - summary: |
-    Проверка ошибак покубки товара в DevTools
-   status: pass
+      Проверка ошибак покубки товара в DevTools
+    status: pass
