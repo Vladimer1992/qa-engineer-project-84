@@ -303,16 +303,17 @@
     При провидение действий на сайте страницы не перезагружаются.
     
 - summary: |
-    Проверка ошибак покубки товара в DevTools
+    Проверка ошибак запроса покубки товара в DevTools
   requirement: |
-    При покубки товара не должно быть ошыбок
+    В запросе не должно быть ошибок Status Code: 200 OK
   prerequisites: |
     В браузере открыта страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
   steps:
-    - Заходим в DevTools на вкладку сеть, запросы
+    - Заходим в DevTools 
+    - Вкладка Network, запросы
     - Заказываем товар на сайте    
   expected-result: |
-    DevTools выдал Status Code: 500 Internal Server Error
+      Status Code: 200 OK
     
