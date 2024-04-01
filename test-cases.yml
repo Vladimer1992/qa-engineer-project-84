@@ -305,9 +305,9 @@
 - summary: |
     Проверка ошибак запроса покубки товара в DevTools
   requirement: |
-    В запросе не должно быть ошибок Status Code: 200 OK
+    В запросе не должно быть ошибок
   prerequisites: |
-    В браузере открыта страница https://hexlet-products-store.vercel.app/
+    В браузере открыта страница https://hexlet-products-store.vercel.app/cart
   test-data: |
     empty
   steps:
