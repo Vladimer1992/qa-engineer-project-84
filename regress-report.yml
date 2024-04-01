@@ -100,3 +100,7 @@ test-cases:
   - summary: |
       Переход к категории товаров по хэштегу на странице товара
     status: pass
+
+  - summary: |
+    Проверка ошибак покубки товара в DevTools
+   status: pass
