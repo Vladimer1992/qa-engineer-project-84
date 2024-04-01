@@ -97,4 +97,4 @@
 
 - summary: |
     Проверка ошибак покубки товара в DevTools
-  status: fail
+  status: pass
