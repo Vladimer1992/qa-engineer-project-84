@@ -21,14 +21,6 @@ test-cases:
     status: pass
 
   - summary: |
-      Проверка фильтрации товаров по цвету
-    status: fail
-
-  - summary: |
-      Проверка фильтрации товаров по размеру
-    status: fail
-
-  - summary: |
       Просмотр каталога товаров
     status: pass
 
@@ -69,7 +61,7 @@ test-cases:
     status: fail
 
   - summary: |
-     Нет значков переключения языка
+     Нет значков переключения языка English
     status: fail
 
   - summary: |
@@ -102,5 +94,5 @@ test-cases:
     status: pass
 
   - summary: |
-      Проверка ошибак покубки товара в DevTools
-    status: pass
+      Проверка пакупак товара в DevTools
+    status: fail
